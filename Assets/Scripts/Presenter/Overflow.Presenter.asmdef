@@ -1,0 +1,21 @@
+{
+    "name": "Overflow.Presenter",
+    "rootNamespace": "Overflow",
+    "references": [
+        "GUID:8935e09555085e04db774f6237040b35",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:5c01796d064528144a599661eaab93a6",
+        "GUID:f79ae8fcb1ef0a44982fbffe56dc22b1",
+        "GUID:e1199a248c8f16447ab95184a8b96aac",
+        "GUID:d79286e2d4df7364583b4f6c3bdc790a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

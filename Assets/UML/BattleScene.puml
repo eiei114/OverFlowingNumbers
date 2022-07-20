@@ -1,0 +1,44 @@
+﻿@startuml
+'https://plantuml.com/class-diagram
+
+namespace Overflow.View{
+interface IView
+    class BattleUIView
+    class AchievementView
+    
+    BattleUIView..|>IView
+    AchievementView..>AchievementElement
+}
+
+namespace Overflow.View.Effect{
+    class EffectHandler
+}
+
+namespace Overflow.Manager{
+    class BattlePresenter 
+            
+    BattlePresenter....>Overflow.View.IView
+    BattlePresenter..>Overflow.View.AchievementView
+    BattlePresenter..>Overflow.Model.Save.SaveHandler
+    BattlePresenter..>Overflow.Model.ScoreData
+    BattlePresenter..>Overflow.Model.Save.SaveScore
+    BattlePresenter..>Overflow.View.Effect.EffectHandler
+}
+
+namespace Overflow.Model{
+    class ScoreData{}
+    }
+
+namespace Overflow.Model.Save{
+    class SaveHandler
+    class SaveScore
+}
+
+namespace Overflow.General{
+    class SceneController
+    enum SceneEnum
+    
+    SceneController..>SceneEnum
+}
+
+@enduml

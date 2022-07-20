@@ -1,0 +1,21 @@
+{
+    "name": "Overflow.View",
+    "rootNamespace": "Overflow",
+    "references": [
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:5c01796d064528144a599661eaab93a6",
+        "GUID:8935e09555085e04db774f6237040b35",
+        "GUID:2bafac87e7f4b9b418d9448d219b01ab",
+        "GUID:4129704b5a1a13841ba16f230bf24a57",
+        "GUID:ce049bea7ccd4da47b5de96c6dfadd76"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

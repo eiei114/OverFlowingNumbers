@@ -1,0 +1,25 @@
+﻿@startuml
+'https://plantuml.com/class-diagram
+
+namespace Overflow.View{
+    class StartView
+}
+
+namespace Overflow.Presenter{
+    class StartPresenter
+    
+    StartPresenter..>Overflow.View.StartView
+    StartPresenter..>Overflow.General.SceneController
+}
+
+namespace Overflow.Model{
+
+}
+
+namespace Overflow.General{
+    class SceneController
+    enum SceneEnum
+    
+    SceneController..>SceneEnum
+}
+@enduml
