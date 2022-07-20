@@ -4,8 +4,7 @@
 スコアを消費することで増加量が増えていきます。ミッションをクリアしてアチーブメントを解除していきましょう。
 
 ## Screen
-
-![Screen](Images/スクリーンショット 2022-07-20 145233.jpg)
+![image](https://user-images.githubusercontent.com/60887155/179908185-9c65e562-cca3-4699-932d-1d877e270f61.png)
 
 ## Library
 
